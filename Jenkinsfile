@@ -9,8 +9,7 @@ node('MAVEN') {
 	}
              
         stage ('archival and test results') {
-			// archive 'target/*jar'
-				junit 'target / surefire-reports /*.xml'
+			 archive 'target/*jar'
 		}
             
 }
