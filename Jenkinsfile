@@ -1,4 +1,4 @@
-node('MAVEN') {
+node('any') {
 
         stage ('SCM') {
 		//some block
